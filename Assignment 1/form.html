@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mycss.css" rel="stylesheet">
+  <title>Kilkenny Castle</title>
+</head>
+<img src="images/flag.jpg" class="img-circle">
+
+<body>
+<div class="container">
+<div class = "row">
+<header class="col">
+      <h1>Kilkenny Castle</h1>
+      <p id = "tagline">Tourist Attraction Site!</p>
+</header>
+</div>
+
+<div class="row">
+<nav class="col-md-2 col-sm-3 col-4">
+<ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+</ul>
+</nav>
+
+<section class="col-md-10 col-sm-9 col-8">
+<article>
+<div class="row">
+<div class="col">
+<h2>Contact Us</h2>
+<p>To find out more, contact Kilkenny Castle - 0874033963 or email <a href ="mailto:kilkennycastle@gmail.com">kilkennycastle@gmail.com.</a></p>
+<p>Thank you for Visiting Our Website!</p>
+
+<form action="process.html" method="get" id = "contact" class="form-horizontal" role="form">
+<div class = "form-group row">
+    <label for="contactname" class="col-sm-2 control-form-label">Contact Name</label>
+    <div class="col-sm-10">
+     <input type="text" name="contactname" id="contactname" class="form-control" autofocus required pattern = "[A-Z][a-z]+( [A-Z][a-z]+)*" title="Please enter a valid name with a capilized letter" > 
+    </div>
+</div>
+<div class = "form-group row">
+    <label for="telnum" class="col-sm-2 control-form-label" >Telephone Number</label>
+    <div class="col-sm-10">
+     <input type="tel" name="telnum" id="telnum" class="form-control" required pattern = "^((\d{3})|\d{3})-?\d{6,9}$": Telephone number (9 - 12 digits), which allows for brackets and hyphens(-). title="Please enter a valid phone number" >
+    </div>
+</div>
+<div class = "form-group row">
+    <label for="emailadd" class="col-sm-2 control-form-label">Email Address</label>
+    <div class="col-sm-10">
+     <input type="email" name="emailadd" id="emailadd" class="form-control" required pattern = "^[_a-z0-9-]+(.[_a-z0-9-]+)@[a-z0-9-]+(.[a-z0-9-]+)(.[a-z]{2,4})$": Email address. title="Please enter a valid email address" >
+    </div>
+</div>
+<div class = "form-group row">
+    <label for="platform" class="col-sm-2 control-form-label">What region are you in?</label>
+	 <div class="col-sm-10">
+	<select name="platform" id="platform" class="form-control">
+	<option value="southwest">South West</option>
+	<option value="southeast">South East</option>
+	<option value="midlands">Midlands</option>
+	<option value="central">Central</option>
+	<option value="east">East</option>
+	<option value="north">North</option>
+	<option value="northernireland">Northern Ireland</option>
+	<option value="overseas">Overseas</option>
+	</select>
+	</div>
+	</div>
+   
+
+<p>Please provide any other details.</p>
+<div class = "form-group row">
+    <label for="moreinfo" class="col-sm-2 control-form-label">More details(as much as you think we'll need)</label>
+    <div class="col-sm-10">
+    <textarea id="comments" name="comments" rows = "5" cols="40" >
+</textarea>
+    </div>
+</div>
+
+
+<p>If we need to call you back for any more info, what would be the best time to call you on the number supplied?</p>
+<div class = "form-group row">
+   <div class="col-sm-10">
+      <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+            In the morning
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            In the afternoon
+          </label>
+        </div>
+		     <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+            In the evening
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            Not at all
+          </label>
+        </div>
+		
+
+</div>
+</div>
+
+<div class="form-group row">
+    <div class="col-sm-10">
+      <button type="submit" class="btn btn-primary" >Send Us the Info </button>
+
+      <button type="reset" class="btn btn-primary" >Clear the Info </button>
+    </div>
+  </div>
+
+<div class="row">
+   <div class="col-6 col-sm-4 "><img src="images/slang.jpg" class="img-thumbnail float-left"></div>
+   <div class="col-6 col-sm-4 "><img src="images/end2.jpg" class="img-thumbnail float-left"></div>
+   <div class="col-6 col-sm-4 "><img src="images/mapofireland2.jpg" class="img-thumbnail float-left"></div>
+</div>
+	
+
+</form>
+</div>
+</div>
+</article>
+</section></div></div>
+<script src="js/jquery-3.2.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<div style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width: 100%;cursor: pointer;line-height: 0;'><a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank" href="https://www.000webhost.com/?utm_source=000webhostapp&amp;utm_campaign=000_logo&amp;utm_medium=website_sophia-lechoco&amp;utm_content=footer_img"><img src="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"  alt="www.000webhost.com"></a></div></body>
+</html>
